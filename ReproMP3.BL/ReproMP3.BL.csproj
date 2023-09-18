@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReproMP3.DAL\ReproMP3.DAL.csproj" />
+    <ProjectReference Include="..\ReproMP3.EN\ReproMP3.EN.csproj" />
+  </ItemGroup>
+
+</Project>
