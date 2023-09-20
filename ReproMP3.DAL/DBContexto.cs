@@ -10,11 +10,11 @@ namespace ReproMP3.DAL
 {
     public class DBContexto : DbContext
     {
-        public DbSet<Mmusica> Mmusica { get; set; }
+        public DbSet<Mmusica> Dmusica { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=Mmusica;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=Mmusica;Integrated Security=True;Trust Server Certificate=true;");
         }
     }
 }

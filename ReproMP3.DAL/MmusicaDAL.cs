@@ -24,7 +24,7 @@ namespace ReproMP3.DAL
             int result = 0;
             using (var dbContexto = new DBContexto())
             {
-                var mmusica = await dbContexto.Mmusica.FirstOrDefaultAsync(s => s.Id == pMmusica.Id);
+                var mmusica = await dbContexto.Dmusica.FirstOrDefaultAsync(s => s.Id == pMmusica.Id);
                 mmusica.Nombre = pMmusica.Nombre;
                 mmusica.Autor = pMmusica.Autor;
                 mmusica.Icono = pMmusica.Icono;
@@ -39,8 +39,8 @@ namespace ReproMP3.DAL
             int result = 0;
             using (var dbContexto = new DBContexto())
             {
-                var mmusica = await dbContexto.Mmusica.FirstOrDefaultAsync(s => s.Id == pMmusica.Id);
-                dbContexto.Mmusica.Remove(mmusica);
+                var mmusica = await dbContexto.Dmusica.FirstOrDefaultAsync(s => s.Id == pMmusica.Id);
+                dbContexto.Dmusica.Remove(mmusica);
                 result = await dbContexto.SaveChangesAsync();
             }
             return result;
@@ -51,7 +51,7 @@ namespace ReproMP3.DAL
             var mmusicas = new List<Mmusica>();
             using (var dbContexto = new DBContexto())
             {
-                mmusicas = await dbContexto.Mmusica.ToListAsync();
+                mmusicas = await dbContexto.Dmusica.ToListAsync();
             }
             return mmusicas;
         }
@@ -61,7 +61,7 @@ namespace ReproMP3.DAL
             var mmusica = new Mmusica();
             using (var dbContexto = new DBContexto())
             {
-                mmusica = await dbContexto.Mmusica.FirstOrDefaultAsync(s => s.Id == pMmusica.Id);
+                mmusica = await dbContexto.Dmusica.FirstOrDefaultAsync(s => s.Id == pMmusica.Id);
             }
             return mmusica;
         }
@@ -87,7 +87,7 @@ namespace ReproMP3.DAL
             var mmusicas = new List<Mmusica>();
             using (var dbContexto = new DBContexto())
             {
-                var select = dbContexto.Mmusica.AsQueryable();
+                var select = dbContexto.Dmusica.AsQueryable();
                 select = QuerySelect(select, pMmusica);
                 mmusicas = await select.ToListAsync();
             }
