@@ -25,20 +25,20 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <button class="btn btn-danger" @onclick="RegsitarMmusica">regsitrar</button>
+        <button class="btn btn-danger" @onclick="RegistrarMmusicas">regsitrar</button>
         <button class="btn btn-secondary" @onclick="returnIndex">Regresar</button>
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <span style="color:red; font-weight:bold;">@resultadoModificar</span>
+        <span style="color:red; font-weight:bold;">@resultadoRegistrar</span>
     </div>
 </div>
 @code {
     Mmusica mmusica = new Mmusica();
-    string resultadoModificar = "";
+    string resultadoRegistrar = "";
 
-    public async Task RegistrarMmusica()
+    public async Task RegistrarMmusicas()
     {
         try
         {
@@ -50,12 +50,12 @@
             }
             else
             {
-                resultadoRegistro = "Error al registrar el Rol";
+                resultadoRegistrar = "Error al registrar el Registrar";
             }
         }
         catch (Exception ex)
         {
-            resultadoRegistro = "Ocurrio un error interno";
+            resultadoRegistrar = "Ocurrio un error interno";
         }
     }
 
