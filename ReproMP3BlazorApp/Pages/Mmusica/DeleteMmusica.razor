@@ -4,8 +4,78 @@
 @inject NavigationManager NavManager
 
 <h3>DeleteMmusica</h3>
-
-
+<input type="hidden" @bind-value="mmusica.Id" />
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" @bind-value="mmusica.Nombre" readonly />
+    </div>
+    <div class="col-sm-12">
+        <label class="form-label">Autor</label>
+        <input type="text" class="form-control" @bind-value="mmusica.Autor" readonly />
+    </div>
+    <div class="col-sm-12">
+        <label class="form-label">Icono</label>
+        <input type="text" class="form-control" @bind-value="mmusica.Icono" readonly />
+    </div>
+    <div class="col-sm-12">
+        <label class="form-label">Url</label>
+        <input type="text" class="form-control" @bind-value="mmusica.Url" readonly />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-danger" @onclick="EliminarMmusica">Eliminar</button>
+        <button class="btn btn-secondary" @onclick="returnIndex">Regresar</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <span style="color:red; font-weight:bold;">@resultadoModificar</span>
+    </div>
+</div>
 @code {
+      Mmusica mmusica = new Mmusica();
+    string resultadoModificar = "";
 
+    [Parameter]
+    public int pId { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (pId != 0)
+        {
+            mmusica = await Http.GetFromJsonAsync<Mmusica>("Mmusica/" + pId);
+        }
+        else
+        {
+            resultadoModificar = "No se encontro el registro seleccionado";
+        }
+    }
+
+    public async Task EliminarMmusica()
+    {
+        try
+        {
+            var resultado = await Http.DeleteAsync("Mmusica/" + mmusica.Id);
+
+            if (Convert.ToInt32(resultado.StatusCode) == 200)
+            {
+                returnIndex();
+            }
+            else
+            {
+                resultadoModificar = "Error al Modificar el Mmusica";
+            }
+        }
+        catch (Exception ex)
+        {
+            resultadoModificar = "Ocurrio un error interno";
+        }
+    }
+
+    void returnIndex()
+    {
+        NavManager.NavigateTo("/mmusica/index");
+    }
 }
