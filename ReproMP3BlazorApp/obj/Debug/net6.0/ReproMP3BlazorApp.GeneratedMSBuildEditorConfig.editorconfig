@@ -31,6 +31,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MINEDUCYT/source/repos/ReproMP3/ReproMP3BlazorApp/Pages/Mmusica/DeleteMmusica.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW11c2ljYVxEZWxldGVNbXVzaWNhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MINEDUCYT/source/repos/ReproMP3/ReproMP3BlazorApp/Pages/Mmusica/DetailMmusica.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW11c2ljYVxEZXRhaWxNbXVzaWNhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MINEDUCYT/source/repos/ReproMP3/ReproMP3BlazorApp/Pages/Mmusica/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW11c2ljYVxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MINEDUCYT/source/repos/ReproMP3/ReproMP3BlazorApp/Pages/Mmusica/ModifyMmusica.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW11c2ljYVxNb2RpZnlNbXVzaWNhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MINEDUCYT/source/repos/ReproMP3/ReproMP3BlazorApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
