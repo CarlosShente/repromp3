@@ -1,9 +1,9 @@
-﻿@page "/mmusica/modifymmusica/{pId:int}"
+﻿@page "/mmusica/registrermmusica/{pId:int}"
 @using ReproMP3.EN;
 @inject HttpClient Http;
 @inject NavigationManager NavManager
 
-<h3>ModifyMmusica</h3>
+<h3>RegistrarMmusica</h3>
 <input type="hidden" @bind-value="mmusica.Id" />
 <div class="row">
     <div class="col-sm-12">
@@ -25,7 +25,7 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <button class="btn btn-danger" @onclick="ModificarMmusica">Modificar</button>
+        <button class="btn btn-danger" @onclick="RegsitarMmusica">regsitrar</button>
         <button class="btn btn-secondary" @onclick="returnIndex">Regresar</button>
     </div>
 </div>
@@ -38,26 +38,11 @@
     Mmusica mmusica = new Mmusica();
     string resultadoModificar = "";
 
-    [Parameter]
-    public int pId { get; set; }
-
-    protected override async Task OnParametersSetAsync()
-    {
-        if (pId != 0)
-        {
-            mmusica = await Http.GetFromJsonAsync<Mmusica>("Mmusica/" + pId);
-        }
-        else
-        {
-            resultadoModificar = "No se encontro el registro seleccionado";
-        }
-    }
-
-    public async Task EliminarMmusica()
+    public async Task RegistrarMmusica()
     {
         try
         {
-            var resultado = await Http.DeleteAsync("Mmusica/" + mmusica.Id);
+            var resultado = await Http.PostAsJsonAsync<Mmusica>("Mmusica", mmusica);
 
             if (Convert.ToInt32(resultado.StatusCode) == 200)
             {
@@ -65,12 +50,12 @@
             }
             else
             {
-                resultadoModificar = "Error al Modificar el Mmusica";
+                resultadoRegistro = "Error al registrar el Rol";
             }
         }
         catch (Exception ex)
         {
-            resultadoModificar = "Ocurrio un error interno";
+            resultadoRegistro = "Ocurrio un error interno";
         }
     }
 
