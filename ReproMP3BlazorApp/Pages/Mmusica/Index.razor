@@ -9,7 +9,7 @@
 
 <h3>Buscar</h3>
 
-@if (mmusicas == null)
+@if (mmusica == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -19,14 +19,20 @@ else
         <thead>
             <tr>
                 <th>Nombre</th>
+                <th>Autor</th>
+                <th>Icono</th>
+                <th>Url</th>
                 <th colspan="3">Acciones</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var mmusica in mmusicas)
+            @foreach (var mmusica in mmusica)
             {
                 <tr>
                     <td>@mmusica.Nombre</td>
+                    <td>@mmusica.Autor</td>
+                    <td>@mmusica.Icono</td>
+                    <td>@mmusica.Url</td>
                     <td>
                         <button class="btn btn-success"
                         @onclick="(() => goModify(mmusica.Id))">
@@ -52,11 +58,11 @@ else
 }
 
 @code {
-    private Mmusica[]? mmusicas;
+    private Mmusica[]? mmusica;
 
     protected override async Task OnInitializedAsync()
     {
-        mmusicas = await Http.GetFromJsonAsync<Mmusica[]>("Mmusica");
+        mmusica = await Http.GetFromJsonAsync<Mmusica[]>("Mmusica");
     }
 
     void newMusica()

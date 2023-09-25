@@ -14,7 +14,8 @@ namespace ReproMP3.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=Mmusica;Integrated Security=True;Trust Server Certificate=true;");
+            optionsBuilder.UseSqlServer(@"Data Source=M22-CVI;Initial Catalog=Mmusica;Integrated Security=True;Trust Server Certificate=true;");
+            //optionsBuilder.UseSqlServer(@"Data Source=M22-CVI;Initial Catalog=Mmusica;Integrated Security=True;Trust Server Certificate=true;");
         }
     }
 }
