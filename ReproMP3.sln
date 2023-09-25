@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32811.315
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReproMP3.EN", "ReproMP3.EN\ReproMP3.EN.csproj", "{B8391E9F-A61C-4C90-B25C-99732D29D499}"
 EndProject
@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReproMP3.BL", "ReproMP3.BL\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEBApi", "WEBApi\WEBApi.csproj", "{2FC5726E-6391-4878-8197-6C31EABEFDA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproMP3BlazorApp", "ReproMP3BlazorApp\ReproMP3BlazorApp.csproj", "{E7223057-8E1A-4E6C-B194-83DE4DEF6B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReproMP3BlazorApp", "ReproMP3BlazorApp\ReproMP3BlazorApp.csproj", "{E7223057-8E1A-4E6C-B194-83DE4DEF6B5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
