@@ -10,7 +10,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped(sp => new HttpClient
 {
     BaseAddress =
-    new Uri("http://ReproductorMP3.somee.com/api/")
+    new Uri("http://ReproMP3.somee.com/api/")
 });
 var app = builder.Build();
 

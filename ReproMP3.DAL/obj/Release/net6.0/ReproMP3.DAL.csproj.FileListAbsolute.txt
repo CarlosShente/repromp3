@@ -1,0 +1,15 @@
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\bin\Release\net6.0\ReproMP3.DAL.deps.json
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\bin\Release\net6.0\ReproMP3.DAL.dll
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\bin\Release\net6.0\ReproMP3.DAL.pdb
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\bin\Release\net6.0\ReproMP3.EN.dll
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\bin\Release\net6.0\ReproMP3.EN.pdb
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.csproj.AssemblyReference.cache
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.AssemblyInfoInputs.cache
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.AssemblyInfo.cs
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.csproj.CopyComplete
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.dll
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\refint\ReproMP3.DAL.dll
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ReproMP3.DAL.pdb
+C:\Users\Alumno\Source\Repos\repromp3\ReproMP3.DAL\obj\Release\net6.0\ref\ReproMP3.DAL.dll
