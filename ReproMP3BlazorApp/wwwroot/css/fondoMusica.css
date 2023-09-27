@@ -1,0 +1,23 @@
+﻿.fondoMusica h3{
+   color: blue;
+   font-weight:bold;
+
+}
+.tableMusica{
+    border: solid 3px;
+    font-size:14px;
+    border-collapse: collapse;
+
+}
+thead{
+    background:rgb(255, 216, 0);
+}
+th{
+    padding:10px 15px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+   
+}

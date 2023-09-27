@@ -2,14 +2,13 @@
 @using ReproMP3.EN;
 @inject HttpClient Http;
 @inject NavigationManager NavManager;
+<div class="fondoMusica">
 <PageTitle>Mmusicas</PageTitle>
 <button class="btn btn-primary" @onclick="newMusica">
     Mas Musica
 </button>
 
 <h3>Buscar</h3>
-
-<div class="fondoPantallaMusica">
  
 @if (mmusica == null)
 {
@@ -18,9 +17,9 @@
 else
 {
   
-    <table class="table">
+    <table class="tableMusica">
         <thead>
-            <tr>
+            <tr bgcolor="gray">
                 <th>Nombre</th>
                 <th>Autor</th>
                 <th>Icono</th>
