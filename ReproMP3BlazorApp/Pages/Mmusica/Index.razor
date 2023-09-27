@@ -9,12 +9,15 @@
 
 <h3>Buscar</h3>
 
+<div class="fondoPantallaMusica">
+ 
 @if (mmusica == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
+  
     <table class="table">
         <thead>
             <tr>
@@ -55,8 +58,9 @@ else
             }
         </tbody>
     </table>
+   
 }
-
+</div>
 @code {
     private Mmusica[]? mmusica;
 

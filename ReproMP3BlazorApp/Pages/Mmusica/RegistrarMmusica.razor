@@ -1,31 +1,32 @@
-﻿@page "/mmusica/registrermmusica/{pId:int}"
+﻿@page "/mmusica/registermmusica"
 @using ReproMP3.EN;
 @inject HttpClient Http;
 @inject NavigationManager NavManager
 
 <h3>RegistrarMmusica</h3>
-<input type="hidden" @bind-value="mmusica.Id" />
+
+
 <div class="row">
     <div class="col-sm-12">
         <label class="form-label">Nombre</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Nombre" readonly />
+        <input type="text" class="form-control" @bind="mmusica.Nombre" />
     </div>
     <div class="col-sm-12">
         <label class="form-label">Autor</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Autor" readonly />
+        <input type="text" class="form-control" @bind="mmusica.Autor"  />
     </div>
     <div class="col-sm-12">
         <label class="form-label">Icono</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Icono" readonly />
+        <input type="text" class="form-control" @bind="mmusica.Icono"  />
     </div>
     <div class="col-sm-12">
         <label class="form-label">Url</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Url" readonly />
+        <input type="text" class="form-control" @bind="mmusica.Url"  />
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <button class="btn btn-danger" @onclick="RegistrarMmusicas">regsitrar</button>
+        <button class="btn btn-danger" @onclick="RegistrarMmusicas">registrar</button>
         <button class="btn btn-secondary" @onclick="returnIndex">Regresar</button>
     </div>
 </div>

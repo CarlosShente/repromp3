@@ -8,24 +8,24 @@
 <div class="row">
     <div class="col-sm-12">
         <label class="form-label">Nombre</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Nombre" readonly />
+        <input type="text" class="form-control" @bind-value="mmusica.Nombre"  />
     </div>
     <div class="col-sm-12">
         <label class="form-label">Autor</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Autor" readonly />
+        <input type="text" class="form-control" @bind-value="mmusica.Autor"  />
     </div>
     <div class="col-sm-12">
         <label class="form-label">Icono</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Icono" readonly />
+        <input type="text" class="form-control" @bind-value="mmusica.Icono"  />
     </div>
     <div class="col-sm-12">
         <label class="form-label">Url</label>
-        <input type="text" class="form-control" @bind-value="mmusica.Url" readonly />
+        <input type="text" class="form-control" @bind-value="mmusica.Url"  />
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <button class="btn btn-danger" @onclick="ModificarMmusica">Modificar</button>
+        <button class="btn btn-danger" @onclick="ModificarMmusica">Guardar</button>
         <button class="btn btn-secondary" @onclick="returnIndex">Regresar</button>
     </div>
 </div>
@@ -57,7 +57,7 @@
     {
         try
         {
-            var resultado = await Http.DeleteAsync("Mmusica/" + mmusica.Id);
+            var resultado = await Http.PutAsJsonAsync<Mmusica>("Mmusica/" + mmusica.Id, mmusica);
 
             if (Convert.ToInt32(resultado.StatusCode) == 200)
             {

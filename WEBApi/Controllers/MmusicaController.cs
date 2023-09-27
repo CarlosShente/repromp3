@@ -17,7 +17,7 @@ namespace WEBApi.Controllers
         {
             return await mmusicaBl.ObtenerTodosAsync();
         }
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<Mmusica> Get(int Id)
         {
             Mmusica mmusica = new Mmusica();
@@ -38,7 +38,7 @@ namespace WEBApi.Controllers
                 return BadRequest();
             }
         }
-        [HttpPut("id")]
+        [HttpPut("{id}")]
         public async Task<ActionResult<Mmusica>> Put(int id, [FromBody] Mmusica mmusica)
         {
 
