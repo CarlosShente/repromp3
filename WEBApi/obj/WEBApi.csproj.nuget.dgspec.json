@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\WEBApi\\WEBApi.csproj": {}
+    "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\WEBApi\\WEBApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj": {
+    "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
         "projectName": "ReproMP3.BL",
-        "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.BL\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -35,11 +35,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
-                "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj"
+              "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj"
               },
-              "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
-                "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
+              "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
               }
             }
           }
@@ -59,26 +59,32 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
+    "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
         "projectName": "ReproMP3.DAL",
-        "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +104,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
-                "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
+              "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
               }
             }
           }
@@ -113,32 +119,44 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+    "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj",
         "projectName": "ReproMP3.EN",
-        "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,26 +193,32 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\WEBApi\\WEBApi.csproj": {
+    "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\WEBApi\\WEBApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\WEBApi\\WEBApi.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\WEBApi\\WEBApi.csproj",
         "projectName": "WEBApi",
-        "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\WEBApi\\WEBApi.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\WEBApi\\WEBApi.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\WEBApi\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\WEBApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,11 +238,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj": {
-                "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj"
+              "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj"
               },
-              "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
-                "projectPath": "C:\\Users\\Alumno\\Downloads\\Repro\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
+              "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
               }
             }
           }
@@ -232,17 +256,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

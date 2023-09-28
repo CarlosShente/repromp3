@@ -11,7 +11,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ReproMP3.EN
 {
-    public class Mmusica
+    public class Ccarpeta
     {
 
         [Key]
