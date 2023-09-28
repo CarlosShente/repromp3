@@ -1,23 +1,76 @@
-﻿.fondoMusica h3{
+﻿body {
+    Background: linear-gradient(#0094ff, #00ffff,#ff00dc)
+}
+
+.fondoMusica h3{
    color: blue;
    font-weight:bold;
 
 }
 .tableMusica{
-    border: solid 3px;
+    border: solid 1px;
     font-size:14px;
+    table-layout:fixed;
     border-collapse: collapse;
 
 }
-thead{
-    background:rgb(255, 216, 0);
+thead {
+    background: rgb(243, 140,210,0.4);
 }
 th{
     padding:10px 15px;
     font-weight:700;
     text-transform: uppercase;
 }
-td{
+td {
     padding: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+tbody tr {
+    cursor:pointer;
+}
+    tbody tr:hover {
+        background: rgba(250, 105,199,0.2);
+    }
+
+
+    *{
+        margin: 0px;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    .imagenes{
+        width:200px;
+        height:150px;
+        overflow:hidden;
+        margin:20px;
+    }
+    img{
+        width: 100%;
+        height:100%;
+        transition: 0.5s;
+        object-fit: cover;
+    }
+     img:hover{
+         transform: scale(1.5);
+     }
+
+.carousel {
+    display: flow;
+    overflow: hidden;
+    width: 250%;
+    max-width: 300px;
+    position: center;
    
+}
+     .slide{
+         flex: 0 0 100;
+         transition: transform 0.3s ease-in-out;
+     }
+.fondocarousel h3 {
+    color: blue;
+    font-weight: bold;
+  
 }
