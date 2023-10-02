@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oV9pk3qh/frdnhR3fFTgXyF4f9qBUP9VvsgK8gxyn+Uv6ueICBaTmkuAnNlKdsf6P85EkanneUky9InvV86uyA==",
+  "dgSpecHash": "BnxnoDMEI5tcf0yt8i37wXi8A4Eo9QyJErVM0/zdjnm7RQP+hYNl+WFTzc4hhbpcN6Dt6MxONw42ntq25tk6Xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\WEBApi\\WEBApi.csproj",
+  "projectFilePath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\WEBApi\\WEBApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

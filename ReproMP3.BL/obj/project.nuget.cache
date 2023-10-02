@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KATfkPgNNEKMw2i9fkgOd0s67c4sbbYRIdZmMDO5j5nlxve7CmEXCx4cJPKxMxJatMT9EDiZR30Onv6Akc/j6A==",
+  "dgSpecHash": "+BkxHcJ1AKtDOtOtKyFm0bILv5RcDq0ppSEh84tAs8ifpIDZFeMb4cliYVLtOHXZ9rqqkA30TDOYe558eU2fUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
+  "projectFilePath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
