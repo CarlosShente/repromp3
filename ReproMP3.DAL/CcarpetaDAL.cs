@@ -25,7 +25,7 @@ namespace ReproMP3.DAL
             int result = 0;
             using (var dbContexto = new DBContexto())
             {
-                var ccarpeta = await dbContexto.Dcarpeta.FirstOrDefaultAsync(s => s.Id == pCcarpeta.Id);
+                var ccarpeta = await dbContexto.Dcarpetas.FirstOrDefaultAsync(s => s.Id == pCcarpeta.Id);
                 ccarpeta.Nombre = pCcarpeta.Nombre;
                 ccarpeta.Genero = pCcarpeta.Genero;
                 ccarpeta.Icono = pCcarpeta.Icono;
@@ -39,8 +39,8 @@ namespace ReproMP3.DAL
             int result = 0;
             using (var dbContexto = new DBContexto())
             {
-                var ccarpeta = await dbContexto.Dcarpeta.FirstOrDefaultAsync(s => s.Id == pCcarpeta.Id);
-                dbContexto.Dcarpeta.Remove(ccarpeta);
+                var ccarpeta = await dbContexto.Dcarpetas.FirstOrDefaultAsync(s => s.Id == pCcarpeta.Id);
+                dbContexto.Dcarpetas.Remove(ccarpeta);
                 result = await dbContexto.SaveChangesAsync();
             }
             return result;
@@ -51,7 +51,7 @@ namespace ReproMP3.DAL
             var ccarpetas = new List<Ccarpeta>();
             using (var dbContexto = new DBContexto())
             {
-                ccarpetas = await dbContexto.Dcarpeta.ToListAsync();
+                ccarpetas = await dbContexto.Dcarpetas.ToListAsync();
             }
             return ccarpetas;
         }
@@ -61,7 +61,7 @@ namespace ReproMP3.DAL
             var ccarpeta = new Ccarpeta();
             using (var dbContexto = new DBContexto())
             {
-                ccarpeta = await dbContexto.Dcarpeta.FirstOrDefaultAsync(s => s.Id == pCcarpeta.Id);
+                ccarpeta = await dbContexto.Dcarpetas.FirstOrDefaultAsync(s => s.Id == pCcarpeta.Id);
             }
             return ccarpeta;
         }
@@ -86,7 +86,7 @@ namespace ReproMP3.DAL
             var ccarpetas = new List<Ccarpeta>();
             using (var dbContexto = new DBContexto())
             {
-                var select = dbContexto.Dcarpeta.AsQueryable();
+                var select = dbContexto.Dcarpetas.AsQueryable();
                 select = QuerySelect(select, pCcarpeta);
                 ccarpetas = await select.ToListAsync();
             }

@@ -11,6 +11,7 @@ namespace ReproMP3.DAL
     public class DBContexto : DbContext
     {
         public DbSet<Mmusica> Dmusica { get; set; }
+        public DbSet<Ccarpeta> Dcarpetas { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

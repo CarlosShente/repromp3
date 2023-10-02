@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReproMP3.EN\ReproMP3.EN.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="ReproMP3.EN">
       <HintPath>..\ReproMP3.EN\bin\Debug\net6.0\ReproMP3.EN.dll</HintPath>
     </Reference>
@@ -23,6 +19,10 @@
   <ItemGroup>
     <Folder Include="Pages\DiseñoPrincipal\" />
     <Folder Include="Triggers\Reproductor\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReproMP3.EN\ReproMP3.EN.csproj" />
   </ItemGroup>
 
 </Project>

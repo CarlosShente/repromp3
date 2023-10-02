@@ -1,0 +1,64 @@
+﻿@page "/ccarpeta/registerccarpeta"
+@using ReproMP3.EN;
+@inject HttpClient Http;
+@inject NavigationManager NavManager
+
+<h3>RegistrarCarpetas</h3>
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" @bind="ccarpeta.Nombre" />
+    </div>
+    <div class="col-sm-12">
+        <label class="form-label">Autor</label>
+        <input type="text" class="form-control" @bind="ccarpeta.Genero" />
+    </div>
+    <div class="col-sm-12">
+        <label class="form-label">Icono</label>
+        <input type="text" class="form-control" @bind="ccarpeta.Icono" />
+    </div>
+  
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-danger" @onclick="RegistrarAlbum">registrar</button>
+        <button class="btn btn-secondary" @onclick="returnIndex">Regresar</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <span style="color:red; font-weight:bold;">@resultadoRegistrar</span>
+    </div>
+</div>
+@code {
+    Ccarpeta ccarpeta = new Ccarpeta();
+    string resultadoRegistrar = "";
+
+    public async Task RegistrarAlbum()
+    {
+        try
+        {
+            var resultado = await Http.PostAsJsonAsync<Ccarpeta>("Ccarpeta", ccarpeta);
+
+            if (Convert.ToInt32(resultado.StatusCode) == 200)
+            {
+                returnIndex();
+            }
+            else
+            {
+                resultadoRegistrar = "Error al registrar el Registrar";
+            }
+        }
+        catch (Exception ex)
+        {
+            resultadoRegistrar = "Ocurrio un error interno";
+        }
+    }
+
+    void returnIndex()
+    {
+        NavManager.NavigateTo("/ccarpeta/index");
+    }
+}

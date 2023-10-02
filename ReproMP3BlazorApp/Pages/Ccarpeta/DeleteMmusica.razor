@@ -1,0 +1,78 @@
+﻿@page "/ccarpeta/deleteccarpeta/{pId:int}"
+@using ReproMP3.EN;
+@inject HttpClient Http;
+@inject NavigationManager NavManager
+
+<h3>DeleteCcarpeta</h3>
+<input type="hidden" @bind-value="ccarpeta.Id" />
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" @bind-value="ccarpeta.Nombre" readonly />
+    </div>
+    <div class="col-sm-12">
+        <label class="form-label">Genero</label>
+        <input type="text" class="form-control" @bind-value="ccarpeta.Genero" readonly />
+    </div>
+    <div class="col-sm-12">
+        <label class="form-label">Icono</label>
+        <input type="text" class="form-control" @bind-value="ccarpeta.Icono" readonly />
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-danger" @onclick="EliminarAlbum">Eliminar</button>
+        <button class="btn btn-secondary" @onclick="returnIndex">Regresar</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <span style="color:red; font-weight:bold;">@resultadoModificar</span>
+    </div>
+</div>
+@code {
+    Ccarpeta ccarpeta = new Ccarpeta();
+    string resultadoModificar = "";
+
+    [Parameter]
+    public int pId { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (pId != 0)
+        {
+            ccarpeta = await Http.GetFromJsonAsync<Ccarpeta>("Ccarpeta/" + pId);
+        }
+        else
+        {
+            resultadoModificar = "No se encontro el registro seleccionado";
+        }
+    }
+
+    public async Task EliminarAlbum()
+    {
+        try
+        {
+            var resultado = await Http.DeleteAsync("Ccarpeta/" + ccarpeta.Id);
+
+            if (Convert.ToInt32(resultado.StatusCode) == 200)
+            {
+                returnIndex();
+            }
+            else
+            {
+                resultadoModificar = "Error al Modificar el Carpetas";
+            }
+        }
+        catch (Exception ex)
+        {
+            resultadoModificar = "Ocurrio un error interno";
+        }
+    }
+
+    void returnIndex()
+    {
+        NavManager.NavigateTo("/ccarpeta/index");
+    }
+}

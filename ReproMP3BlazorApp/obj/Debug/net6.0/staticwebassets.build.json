@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aNr5F9QRz7oJxRzEj58f/lFh+7XMADXx8bh3eG587S4=",
+  "Hash": "OMPlSq0Ca7OcYLKY32rON8shXbHHRmIxYBBCZCqNknY=",
   "Source": "ReproMP3BlazorApp",
   "BasePath": "_content/ReproMP3BlazorApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ReproMP3BlazorApp\\wwwroot",
       "Source": "ReproMP3BlazorApp",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ReproMP3BlazorApp.styles.css",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ReproMP3BlazorApp.styles.css",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "ReproMP3BlazorApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ReproMP3BlazorApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ReproMP3BlazorApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ReproMP3BlazorApp.bundle.scp.css",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ReproMP3BlazorApp.bundle.scp.css",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "ReproMP3BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ReproMP3BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ReproMP3BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\fondoMusica.css",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\fondoMusica.css",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/fondoMusica.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fondoMusica.css"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\css\\site.css",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\favicon.ico",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\imagenes\\Disco.jpg",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\imagenes\\Disco.jpg",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "imagenes/Disco.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Disco.jpg"
     },
     {
-      "Identity": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\imagenes\\imagen1.jpeg",
+      "Identity": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\imagenes\\imagen1.jpeg",
       "SourceId": "ReproMP3BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alumno\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MINEDUCYT\\Source\\Repos\\repromp3\\ReproMP3BlazorApp\\wwwroot\\",
       "BasePath": "_content/ReproMP3BlazorApp",
       "RelativePath": "imagenes/imagen1.jpeg",
       "AssetKind": "All",

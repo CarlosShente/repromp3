@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ReproMP3.BL
 {
-    internal class CcarpetaBL
+    public class CcarpetaBL
     {
         public async Task<int> CrearAsync(Ccarpeta pCcarpeta)
         {

@@ -42,21 +42,33 @@ tbody tr {
     
   
 
-    .imagenes{
-        width:250px;
-        height:150px;
-        overflow: hidden;
-        margin:150px;
+    .imagen{
+        position:absolute;
+        width:50%;
+        height:80%;
+      justify-content: center;
+      align-items:center;
+      display:flex;
     }
-img {
-    width: 100%;
-    height: 100%;
-    transition: 0.5s;
-    object-fit: cover;
+ .img1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    animation-name: girarb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
 }
-     img:hover{
-         transform: scale(1.5);
+@keyframes girarb{
+    from{
+        transform:rotate(0deg);
+    }to
+     {
+         transform:rotate(360deg);
      }
+}
+     
 
 .carousel {
     display:  flex;

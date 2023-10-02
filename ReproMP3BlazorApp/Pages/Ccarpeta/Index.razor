@@ -1,0 +1,90 @@
+﻿@page "/ccarpeta/index"
+@using ReproMP3.EN;
+@inject HttpClient Http;
+@inject NavigationManager NavManager;
+<div class="fondoMusica">
+    <PageTitle>ccarpeta</PageTitle>
+<button class="btn btn-primary" @onclick="newAlbum">
+    Mas Musica
+</button>
+
+<h3>Buscar</h3>
+
+    @if (ccarpeta == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+  
+    <table class="tableAlbum">
+        <thead>
+            <tr bgcolor="gray">
+                <th>Nombre</th>
+                <th>Genero</th>
+                <th>Icono</th>
+                
+                <th colspan="3">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var ccarpeta in ccarpeta)
+            {
+                <tr>
+                        <td>@ccarpeta.Nombre</td>
+                        <td>@ccarpeta.Genero</td>
+                        <td>@ccarpeta.Icono</td>
+                    
+                    <td>
+                        <button class="btn btn-success"
+                            @onclick="(() => goModify(ccarpeta.Id))">
+                            Modificar
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger"
+                            @onclick="(() => goDelete(ccarpeta.Id))">
+                            Eliminar
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                            @onclick="(() => goDetail(ccarpeta.Id))">
+                            Ver
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+   
+}
+</div>
+@code {
+    private Ccarpeta[]? ccarpeta;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ccarpeta = await Http.GetFromJsonAsync<Ccarpeta[]>("Ccarpeta");
+    }
+
+    void newAlbum()
+    {
+        NavManager.NavigateTo("/ccarpeta/registerccarpeta");
+    }
+
+    void goModify(int pId)
+    {
+        NavManager.NavigateTo($"/ccarpeta/modifyccarpeta/{pId}");
+    }
+
+    void goDelete(int pId)
+    {
+        NavManager.NavigateTo($"/ccarpeta/deleteccarpeta/{pId}");
+    }
+
+    void goDetail(int pId)
+    {
+        NavManager.NavigateTo($"/ccarpeta/detailccarpeta/{pId}");
+    }
+}
