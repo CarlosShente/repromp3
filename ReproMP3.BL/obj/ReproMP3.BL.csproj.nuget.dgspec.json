@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj": {}
+    "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.BL\\ReproMP3.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj": {
+    "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.BL\\ReproMP3.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.BL\\ReproMP3.BL.csproj",
         "projectName": "ReproMP3.BL",
-        "projectPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.BL\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.BL\\ReproMP3.BL.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -33,11 +35,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
-                "projectPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj"
+              "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.DAL\\ReproMP3.DAL.csproj"
               },
-              "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
-                "projectPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
+              "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\ReproMP3.EN.csproj"
               }
             }
           }
@@ -67,26 +69,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
+    "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.DAL\\ReproMP3.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
         "projectName": "ReproMP3.DAL",
-        "projectPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.DAL\\ReproMP3.DAL.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -100,8 +104,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
-                "projectPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
+              "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\ReproMP3.EN.csproj"
               }
             }
           }
@@ -137,26 +141,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+    "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\ReproMP3.EN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\ReproMP3.EN.csproj",
         "projectName": "ReproMP3.EN",
-        "projectPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\source\\repos\\repromp3\\ReproMP3.EN\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\ReproMP3.EN.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\Downloads\\Nueva carpeta\\ReproMP3.EN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -197,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
