@@ -42,27 +42,40 @@ namespace ReproMP3.BL.Tests
         }
 
         [TestMethod()]
-        public void EliminarAsyncTest()
+        public async Task T3ObtenerTodosAsyncTest()
         {
-            Assert.Fail();
+            var result = await mmusicaBL.ObtenerTodosAsync();
+            Assert.AreNotEqual(0, result.Count);
         }
 
         [TestMethod()]
-        public void ObtenerTodosAsyncTest()
+        public async Task T4ObtenerPorIdAsyncTest()
         {
-            Assert.Fail();
+            var mmusica = new Mmusica();
+            mmusica.Id = mmusicaInicial.Id;
+            var resultMmusica = await mmusicaBL.ObtenerPorIdAsync(mmusica);
+            Assert.AreEqual(mmusica.Id, resultMmusica.Id);
         }
 
         [TestMethod()]
-        public void ObtenerPorIdAsyncTest()
+        public async Task T5BuscarAsyncTest()
         {
-            Assert.Fail();
+            var mmusica = new Mmusica ();
+            mmusica.Nombre = "La Curiosidad";
+            mmusica.Autor = "Mike Towers ";
+            mmusica.Icono = "imagen 2";
+            mmusica.Url = "bbbbbbbbbbbbb";
+            var resultMmusicas = await mmusicaBL.BuscarAsync(mmusica);
+            Assert.AreNotEqual(0, resultMmusicas.Count);
         }
 
         [TestMethod()]
-        public void BuscarAsyncTest()
+        public async Task T6EliminarAsyncTest()
         {
-            Assert.Fail();
+            var mmusica = new Mmusica();
+            mmusica.Id = mmusicaInicial.Id;
+            int result = await mmusicaBL.EliminarAsync(mmusica);
+            Assert.AreNotEqual(0, result);
         }
     }
 }
