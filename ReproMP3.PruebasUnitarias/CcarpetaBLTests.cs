@@ -65,7 +65,7 @@ namespace ReproMP3.BL.Tests
         }
 
         [TestMethod()]
-        public async Task T6EliminarAsyncTest()
+        public async Task T6EliminarAsyncTest()//Eliminar carpeta
         {
             var ccarpeta = new Ccarpeta();
             ccarpeta.Id = ccarpetaInicial.Id;
