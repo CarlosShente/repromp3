@@ -2887,25 +2887,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Alumno\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\MUSICA\\WEBApi\\WEBApi.csproj",
+      "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\ReproMP3.Test\\repromp3\\WEBApi\\WEBApi.csproj",
       "projectName": "WEBApi",
-      "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\MUSICA\\WEBApi\\WEBApi.csproj",
-      "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\MUSICA\\WEBApi\\obj\\",
+      "projectPath": "C:\\Users\\Alumno\\Desktop\\ReproMP3.Test\\repromp3\\WEBApi\\WEBApi.csproj",
+      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alumno\\Desktop\\ReproMP3.Test\\repromp3\\WEBApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2919,11 +2922,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MINEDUCYT\\Desktop\\MUSICA\\ReproMP3.BL\\ReproMP3.BL.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\MUSICA\\ReproMP3.BL\\ReproMP3.BL.csproj"
+            "C:\\Users\\Alumno\\Desktop\\ReproMP3.Test\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj": {
+              "projectPath": "C:\\Users\\Alumno\\Desktop\\ReproMP3.Test\\repromp3\\ReproMP3.BL\\ReproMP3.BL.csproj"
             },
-            "C:\\Users\\MINEDUCYT\\Desktop\\MUSICA\\ReproMP3.EN\\ReproMP3.EN.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\MUSICA\\ReproMP3.EN\\ReproMP3.EN.csproj"
+            "C:\\Users\\Alumno\\Desktop\\ReproMP3.Test\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj": {
+              "projectPath": "C:\\Users\\Alumno\\Desktop\\ReproMP3.Test\\repromp3\\ReproMP3.EN\\ReproMP3.EN.csproj"
             }
           }
         }
@@ -2962,7 +2965,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

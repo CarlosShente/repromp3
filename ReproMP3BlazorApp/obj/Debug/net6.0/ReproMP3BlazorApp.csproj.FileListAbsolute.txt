@@ -88,3 +88,33 @@ C:\Users\Alumno\Downloads\Nueva carpeta\ReproMP3BlazorApp\obj\Debug\net6.0\refin
 C:\Users\Alumno\Downloads\Nueva carpeta\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.pdb
 C:\Users\Alumno\Downloads\Nueva carpeta\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.genruntimeconfig.cache
 C:\Users\Alumno\Downloads\Nueva carpeta\ReproMP3BlazorApp\obj\Debug\net6.0\ref\ReproMP3BlazorApp.dll
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3BlazorApp.staticwebassets.runtime.json
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3BlazorApp.exe
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3BlazorApp.deps.json
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3BlazorApp.runtimeconfig.json
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3BlazorApp.dll
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3BlazorApp.pdb
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3.EN.dll
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\bin\Debug\net6.0\ReproMP3.EN.pdb
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.RazorAssemblyInfo.cache
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.RazorAssemblyInfo.cs
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\scopedcss\bundle\ReproMP3BlazorApp.styles.css
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\scopedcss\projectbundle\ReproMP3BlazorApp.bundle.scp.css
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.csproj.CopyComplete
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.dll
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\refint\ReproMP3BlazorApp.dll
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.pdb
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ReproMP3BlazorApp.genruntimeconfig.cache
+C:\Users\Alumno\Desktop\ReproMP3.Test\repromp3\ReproMP3BlazorApp\obj\Debug\net6.0\ref\ReproMP3BlazorApp.dll
